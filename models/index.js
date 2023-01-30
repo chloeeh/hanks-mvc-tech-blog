@@ -28,4 +28,4 @@ Post.hasMany(Comment, {
 });
 
 // removed USER temporarily
-module.exports = {Post, Comment};
+module.exports = {Post, User, Comment};

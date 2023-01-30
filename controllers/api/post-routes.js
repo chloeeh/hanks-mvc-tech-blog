@@ -1,6 +1,6 @@
 const router = require('express').Router();
 // removed USER temporarily
-const { Post, Comment } = require('../../models');
+const { Post, User, Comment } = require('../../models');
 const sequelize = require('../../config/connection');
 // remove withAuth until everything else goes through troubleshooting
 // const withAuth = require('../../utils/auth');
