@@ -27,4 +27,5 @@ Post.hasMany(Comment, {
     foreignKey: 'post_id'
 });
 
-module.exports = {User, Post, Comment};
+// removed USER temporarily
+module.exports = {Post, Comment};
